@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import Footer from "./Footer";
-import Card from "./Card";
+import Card from "./card";
 function App() {
   let [cart, setCart] = useState(0);
   return (
